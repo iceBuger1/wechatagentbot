@@ -1,2 +1,9 @@
-# wechatagentbot
-wechatagentbot
+基于pywexin和langchain的微信agentbot
+自动化wechat使用的是开源的pyweixin：https://github.com/evilpan/pyweixin/tree/master
+可以自定义tools（我自己只加了5个tools：comfyui_api生图，操作mysql，微信发送文件信息，百度地图mcptools和麦当劳mcptools）
+agent自动使用长期记忆filesaver类，保存记忆文件夹在tools/file_saver自定义
+example：
+mysql_tools：
+amap_tools：
+mcd_tools：
+picture_generate_tools：
